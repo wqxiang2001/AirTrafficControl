@@ -8696,10 +8696,10 @@ react-dom@^16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-dropdown@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/react-dropdown/-/react-dropdown-1.8.0.tgz#5dcdb16adb2b6d6febc34ac7e80d785cb3c4a21b"
-  integrity sha512-B1vkFk2vkUOf5JFd+Gk8yJdZkSoE4F689Lb93vc0pLcu6cabqlGMYgIzLJuzT+BMy7guk+OXbLDs0pMX8BvEbw==
+react-dropdown@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/react-dropdown/-/react-dropdown-1.11.0.tgz#b9576de17efd28e5684d101b3f58dfe784af242c"
+  integrity sha512-E2UWetRPxNdIhQahXw6b984ME7WmcgDj9AEAjrtS/oyLCFVo+2qkCfcS06C22JR0Zj+YLnygwv0Ozf6VKKDq7g==
   dependencies:
     classnames "^2.2.3"
 
