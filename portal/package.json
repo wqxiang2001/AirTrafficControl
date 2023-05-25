@@ -13,13 +13,16 @@
     "react-dropdown": "^1.8.0",
     "react-router-dom": "4.3.1",
     "react-scripts": "3.4.3",
-    "reactstrap": "6.5.0"
+    "reactstrap": "6.5.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "proxy": "http://localhost:8080",
   "eslintConfig": {
@@ -36,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "snyk": true
 }
